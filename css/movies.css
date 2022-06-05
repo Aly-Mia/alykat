@@ -1,7 +1,0 @@
-#movie_c {width: 100%; min-height: 85vh;}
-    #movie_c article {width: 20vw; height: 40vh; margin: 2%; background: orange; float: left;}
-        #movie_c article header {width: 100%; height: 5vh;}
-        #movie_c article section {width: 100%; height: 30vh;}
-            #movie_c article section img {height: 100%;}
-        #movie_c article footer {width: 100%; height: 5vh;}
-            #movie_c article footer a {margin: 3%;}

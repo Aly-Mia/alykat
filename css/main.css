@@ -1,0 +1,27 @@
+* {margin: 0; padding: 0;}
+
+html {width: 100%; text-align: center; background: #000;}
+
+body {width: 100%; min-height: 100vh; margin: 0 auto; background: #fff;}
+
+#home_h {width: 100%; height: 95vh; background: #061727;}
+    #home_h img {height: 100%; margin: 0 auto;}
+
+#home_n {width: 100%; height: 5vh;}
+    #home_n ul {width: 75%; height: 5vh; margin: 0 auto;}
+        #home_n ul li {width: 20%; height: 5vh; display: inline-block;}
+            #home_n ul li a {color: #000; text-decoration: none; line-height: 200%;}
+                #home_n ul li a:hover {color: #ff0000; text-decoration: underline; font-weight: bold; font-style: italic;}
+                
+#site_h {width: 100%; height: 5vh;}
+    #site-logo {width: 25%; height: 5vh; float: left;}
+        #site-logo img {height: 100%;}
+    #site_n {width: 75%; heoght: 5vh; float: right;}
+        #site_n ul {width: 100%; height: 5vh;}
+            #site_n ul li {width: 20%; height: 5vh; display: inline-block;}
+                #site_n ul li a {color: #000; text-decoration: none; line-height: 200%;}
+                    #site_n ul li a:hover {color: #ff0000; text-decoration: underline; font-weight: bold; font-style: italic;}
+    
+#page_c {width: 100%; min-height: 95vh; clear: both;}
+
+#site_f {width: 100%; height: 15vh; background: #000; color: #fff;}

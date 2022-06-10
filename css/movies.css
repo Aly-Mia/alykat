@@ -1,0 +1,10 @@
+#movies_c {width: 100%; height: 95vh; background: #ddd;}
+
+    #movie-list {width: 100%; min-height: 95vh;}
+        #movie-list article {width: 45%; height: 40vh; float: left; margin: 2.5%; border-left: 1px solid #000; border-right: 1px solid #000; border-top: 1px solid #000; border-radius: 5px;}
+            #movie-list article header {width: 100%; height: 5vh;}
+            #movie-list article aside {width: 25%; height: 35vh; float: left;}
+                #movie-list article aside img {height: 100%;}
+            #movie-list article section {width: 75%; height: 35vh; float: right;} 
+            #movie-list article footer {width: 100%; clear: both;}
+            

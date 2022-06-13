@@ -1,10 +1,39 @@
 #movies_c {width: 100%; height: 95vh; background: #ddd;}
 
     #movie-list {width: 100%; min-height: 95vh;}
-        #movie-list article {width: 45%; height: 40vh; float: left; margin: 2.5%; border-left: 1px solid #000; border-right: 1px solid #000; border-top: 1px solid #000; border-radius: 5px;}
+        #movie-list article {width: 45%; height: 40vh; float: left; margin: 2%; border-left: 1px solid #000; border-right: 1px solid #000; border-top: 1px solid #000; border-radius: 5px 5px 0 0;}
             #movie-list article header {width: 100%; height: 5vh;}
             #movie-list article aside {width: 25%; height: 35vh; float: left;}
                 #movie-list article aside img {height: 100%;}
             #movie-list article section {width: 75%; height: 35vh; float: right;} 
             #movie-list article footer {width: 100%; clear: both;}
+            
+#movie-page {width: 100%; height: 95vh; border-top: 1px solid #778899;}
+    #movies-top {width: 100%; height: 50%;}
+    
+        #movie-poster {width: 33.3%; height: 100%; float: left;}
+            #movie-poster img {height: 80%; margin: 5%;}
+            
+        #movie-info {width: 33.3%; height: 100%; float: left;}
+            #movie-info ul {width: 100%; text-align: left;}
+            #movie-info li {width: 100%; height: 5vh; display: block;}
+                #movie-info li h3 {font-style: italic; text-decoration: underline;}
+                #movie-info ul li p {font-weight: bold;}
+        
+        #movie-links {width: 33.3%; height: 100%; float: right;}
+            #movie-links ul {width: 100%;}
+                #movie-links ul li {width: 100%; height: 10vh; display: block; margin-top: 5%;}
+                    #movie-links ul li a img {height: 10vh;}
+    
+    #movies-bttm {width: 100%; height: 50%;}
+        #movie-people {width: 50%; height: 100%; float: left;}
+            #movie-people table {width: 100%; height: 100%;}
+                #movie-people table tr {width: 100%; height: 50%;}
+                    #movie-people table td {width: 25%; height: 50%;}
+                        #movie-people table td a img {height: 20vh;}
+                        #movie-people table td a p {font-style: italic; color: #000080;}
+        
+        #play-movie {width: 50%; height: 100%; float: right;}
+            #play-movie p {margin-top: 2%;}
+            #play-movie a img {margin-top: 5%;}
             

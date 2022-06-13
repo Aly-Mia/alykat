@@ -8,7 +8,7 @@ class links {
     }
     
     function movies() {
-        $l = 'http://localhost/alykat/movies.php';
+        $l = 'http://localhost/alykat/movies/movies.php';
         return $l;
     }
     
